@@ -1,0 +1,17 @@
+name: HomePlugin
+main: homePlugin.homePlugin
+version: 1.0
+author: Matthew Williams
+commands:
+   sethome:
+      description: used to set the home at a designated location.
+      usage: /sethome [home_name]
+   home:
+      description: used to teleport home
+      usage: /home [home_name]
+   homes:
+      description: used to list homes available.
+      usage: /homes
+   deletehome:
+      description: used to delete a certain home.
+      usage: /deletehome [home_name]
